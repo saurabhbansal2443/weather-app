@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  background-color: #4B515D;
+}
+h1{
+
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  
+  
+}
+.Inputs{
+  display: flex;
+  justify-content: center;
+ 
+}
+.searchBar{
+ height: 3rem;
+ width: 18rem;
+ padding-left: 0.9rem;
+ border: none;
+  outline: none;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+
+ font-size: x-large;
+  
+
+}
+
+.search-button{
+  height: 3rem;
+  border: none;
+  outline: none;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+ .Main-container{
+ width: 30rem;
+  background-color:white ;
+  margin: 0.3rem;
+  padding: 1.5rem;
+  margin-left: 32rem;
+  margin-top: 5rem;
+  height: 18rem;
+  border-radius: 50px;
+
+  
+  
+}
+
+.all{
+  display: block;
+  justify-content: center;
+ 
+}
+
+.icon{
+  width: 8rem;
+  height:8rem;
+  
+ 
+}
+
+.place-time{
+  display: flex;
+  justify-content:space-between;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+}
+
+.state{
+  
+}
+.waether{
+ font-weight: bold;
+}
+.place,.country,.time,.humidity{
+  font-size: larger;
+}
+
+.icon-weather{
+  display: block;
+}
+
+.temprature{
+  font-size: x-large;
+}
+.temprature-humidity{
+  margin-top:0.4rem ;
+  display: flex;
+  justify-content:space-between;
+}
