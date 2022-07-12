@@ -20,7 +20,7 @@ class Search extends Component{
 
     }
     async componentDidMount(){
-        let res=await axios.get("http://api.weatherapi.com/v1/current.json?key=377ea6b428f3405ca5a100638222506&q=rajasthan&aqi=no")
+        let res=await axios.get("https://api.weatherapi.com/v1/current.json?key=377ea6b428f3405ca5a100638222506&q=rajasthan&aqi=no")
         console.log(res.data);
         this.setState({
             state:res.data.location.name,
@@ -46,7 +46,7 @@ class Search extends Component{
         })
     }
   waetherAPI= async ()=>{
-        let res=await axios.get(`http://api.weatherapi.com/v1/current.json?key=377ea6b428f3405ca5a100638222506&q=${this.state.place}&aqi=no`)
+        let res=await axios.get(`https://api.weatherapi.com/v1/current.json?key=377ea6b428f3405ca5a100638222506&q=${this.state.place}&aqi=no`)
         console.log(res.data);
         this.setState({
             state:res.data.location.name,
